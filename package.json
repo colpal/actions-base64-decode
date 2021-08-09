@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "esbuild app.js --bundle --platform=node --outfile=out.js"
+  },
   "devDependencies": {
     "esbuild": "^0.12.19"
   }
