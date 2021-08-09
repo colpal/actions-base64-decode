@@ -3,7 +3,10 @@
     "build": "esbuild app.js --bundle --platform=node --outfile=out.js"
   },
   "devDependencies": {
-    "esbuild": "^0.12.19"
+    "esbuild": "^0.12.19",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0"
   },
   "dependencies": {
     "@actions/core": "^1.4.0"
