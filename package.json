@@ -4,5 +4,8 @@
   },
   "devDependencies": {
     "esbuild": "^0.12.19"
+  },
+  "dependencies": {
+    "@actions/core": "^1.4.0"
   }
 }
