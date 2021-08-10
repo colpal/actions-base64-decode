@@ -1,0 +1,16 @@
+---
+name: Base64 Decode
+description: Decode (possibly sensitive) base64 without choking on newlines
+runs:
+  using: node12
+  main: out.js
+inputs:
+  base64:
+    description: The base64 string to decode
+    required: true
+  mask:
+    description: If set, the decoded base64 is assumed to be sensitive, and will be masked
+    required: false
+outputs:
+  decoded:
+    description: The decoded base64 string
