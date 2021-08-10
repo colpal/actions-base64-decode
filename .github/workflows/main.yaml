@@ -1,0 +1,21 @@
+---
+'on': push
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run colpal/actions-base64-decode
+        id: base64
+        uses: ./
+        with:
+          base64: YmFuYW5hCm1pbGtzaGFrZQ==
+          mask: true
+
+      - run: test "$ACTUAL" = "$EXPECTED"
+        env:
+          ACTUAL: ${{ steps.base64.outputs.decoded }}
+          EXPECTED: |-
+            banana
+            milkshake
