@@ -2,7 +2,7 @@
 name: Base64 Decode
 description: Decode (possibly sensitive) base64 without choking on newlines
 runs:
-  using: node12
+  using: node16
   main: out.js
 inputs:
   base64:
