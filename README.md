@@ -12,8 +12,8 @@
 
       # If set, the decoded base64 is assumed to be sensitive, and will be masked
       # Optional
-      # Default: false
-      mask: true
+      # Default: true
+      mask: false
 
   - run: script.sh
     env:
