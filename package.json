@@ -10,6 +10,6 @@
     "eslint-plugin-import": "^2.24.0"
   },
   "dependencies": {
-    "@actions/core": "^1.4.0"
+    "@actions/core": "^1.9.1"
   }
 }
