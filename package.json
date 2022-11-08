@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "scripts": {
-    "build": "esbuild app.js --bundle --minify --platform=node --outfile=out.js"
+    "build": "esbuild app.js --bundle --platform=node --outfile=out.js"
   },
   "devDependencies": {
     "esbuild": "^0.15.13",
