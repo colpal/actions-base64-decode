@@ -4,7 +4,7 @@
     "build": "esbuild app.js --bundle --minify --platform=node --outfile=out.js"
   },
   "devDependencies": {
-    "esbuild": "^0.12.19",
+    "esbuild": "^0.15.13",
     "eslint": "^8.27.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0"
