@@ -4,7 +4,7 @@
 
 ```yaml
   - id: base64
-    uses: colpal/actions-base64-decode@v1
+    uses: colpal/actions-base64-decode@v2
     with:
       # The base64 string to decode
       # Required
